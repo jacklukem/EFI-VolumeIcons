@@ -18,7 +18,7 @@ echo "Done"
 echo "\n\n Copying the icon file to your BigSur"
 echo "\n Please re-type password if required\n"
 sudo mount -uw /
-cd /Volumes/*/Library/KerneCollections/
+cd /Volumes/*/Library/KernelCollections/
 cd .. ; cd .. ; cd ..  
 sudo cp -a ~/*/BigSuricon/BigSuricon.icns .VolumeIcon.icns
 echo "Done"
