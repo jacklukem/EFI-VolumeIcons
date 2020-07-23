@@ -11,7 +11,7 @@ printf "\n\n\n"
 clear && printf '\e[3J'
 
 clear 
-echo "\n\n This funny script for BigSur totally safe and harmless \n\n enables the Catalina island icon\n\n on apple startup boot manager (hold alt-option key after power-on) \n\n\n Setting nvram parameter to enforce compatibility check"
+echo "\n\n This funny script for BigSur totally safe and harmless \n\n enables the BigSur island icon\n\n on apple startup boot manager (hold alt-option key after power-on) \n\n\n Setting nvram parameter to enforce compatibility check"
 echo "\n Please type password when required\n"
 sudo nvram boot-args="-no_compat_check"
 echo "Done"
