@@ -17,9 +17,10 @@ sudo nvram boot-args="-no_compat_check"
 echo "Done"
 echo "\n\n Copying the icon file to your BigSur"
 echo "\n Please re-type password if required\n"
-sudo mount -uw /
 cd /Volumes/*/Library/KernelCollections/
 cd .. ; cd .. 
+sudo cp -a ~/*/BigSuricon/BigSuricon.icns .VolumeIcon.icns
+cd /System/Volumes/Preboot/*/
 sudo cp -a ~/*/BigSuricon/BigSuricon.icns .VolumeIcon.icns
 echo "Done"
 echo "\n\n Now you can reboot the system, and hold alt-option key\n to see the BigSur icon \n"
